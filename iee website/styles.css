@@ -1,0 +1,30 @@
+body {
+    padding-top: 60px;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  #banner {
+    height: 500px;
+    background: url('path_to_your_banner_image.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
